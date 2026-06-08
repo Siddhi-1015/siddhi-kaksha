@@ -19,11 +19,15 @@
 
         /* ── Header ── */
         header {
-            padding: 50px 20px;
-            text-align: center;
-            background: linear-gradient(135deg, #1abc9c, #16a085);
-            color: white;
-        }
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.50),
+        rgba(0, 0, 0, 0.50)
+    ),
+    url('banner.jpeg') center/cover no-repeat;
+    color: white;
+}
 
         header h1 {
             font-size: clamp(28px, 6vw, 50px);
@@ -262,9 +266,26 @@
 
     <!-- Header -->
     <header>
-        <h1>📚 Siddhi's Kaksha</h1>
-        <p>Learn · Grow · Get Motivated</p>
-    </header>
+    <div style="font-size:clamp(40px,8vw,70px);margin-bottom:10px">📚</div>
+    <h1>Siddhi's Kaksha</h1>
+    <p>Learn · Grow · Get Motivated</p>
+    <div style="margin-top:20px">
+        <a href="#courses"
+           style="background:#1abc9c;color:white;padding:12px 28px;
+           border-radius:25px;text-decoration:none;font-weight:700;
+           font-size:14px;margin:6px;display:inline-block;
+           transition:0.3s">
+           🎓 Explore Courses
+        </a>
+        <a href="#founder"
+           style="background:transparent;color:white;padding:12px 28px;
+           border-radius:25px;text-decoration:none;font-weight:700;
+           font-size:14px;margin:6px;display:inline-block;
+           border:2px solid white;transition:0.3s">
+           👩 About Me
+        </a>
+    </div>
+</header>
 
     <!-- Nav -->
     <nav>
